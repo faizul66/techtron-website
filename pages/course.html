@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Course</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">   <!--bootstrap.min.css-->
+<link rel="stylesheet" href="../techtron/assets/css/style.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding-large">TECHTRON</a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="COURSE" >COURSE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="../pages/course.html" class="w3-bar-item w3-button">Main</a>
+        <a href="../pages/course.html#ROS" class="w3-bar-item w3-button">ROS</a>
+        <a href="../pages/course.html#Python" class="w3-bar-item w3-button">Python</a>
+        <a href="../pages/course.html#Arduino" class="w3-bar-item w3-button">Arduino</a>
+      </div>
+    </div>
+    <a href="../pages/about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="../pages/careers.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CAREERS</a>
+    <a href="../pages/contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#course" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COURSE</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT US</a>
+  
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <div class="firstcar">"Curiosity leads to new discoveries"</div>
+    <img src="../assets/img/1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <div class="secondcar">"Failure is not the end, it is just the beginning"</div>
+    <img src="../assets/img/1d.jpeg" style="width:100%">
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <div class="thirdcar">"Success usually comes to those who are too busy to be looking for it." </div>
+    <img src="../assets/img/12.jpeg" style="width:100%"> 
+  </div>
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:2000px" id="promote">
+    
+    <img src="../assets/img/promotion.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:100%">
+  </div>
+
+  <!-- course section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1500px;font-family: Arial, Helvetica, sans-serif;" id="ROS" >
+    <h1 class="workshops" style="font-weight: bolder;font-size:500%;padding-bottom: 2vw;font-family:Arial, Helvetica, sans-serif;">Workshop</h1>
+    <div class="new-cars-content">
+      <div class="new-cars-item" style="font-size: larger" >
+        <div>
+          <div class="row" >
+            <div class="col-md-7 col-sm-12">
+              <div class="new-cars-img">
+                <img src="../assets/img/Boxy.png" style="height: 100%;max-width: 100%;" alt="img"/>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+              <div class="new-cars-txt">
+                <h2><a href="#">Robot Operating System (ROS) Workshop</a></h2>
+                <p>
+                  ROS (Robot Operating System) is like a toolbox for building and controlling robots. It helps researchers and companies make robots do all sorts of tasks, from self-driving cars to farming and healthcare robots. ROS provides a way to talk to the robot's hardware, send messages between different parts of the robot's brain, manage pieces of code neatly, and use useful tools. It's popular because it's flexible and used in many fields. 
+                </p>
+                <p class="modul">
+                  ROS Workshop Module 
+                </p>
+                <ul>
+                  <li>Installing Ubuntu & ROS NEOTIC 
+                  </li>
+                  <li>Introduction to ROS | Connection with robot |
+                  </li>
+                  <li>ROS teleoperation | ROS mapping </li>
+                </ul>
+                <br>
+                <button class="button" onclick="window.location.href='#'">Register Now</button>  
+              </div>	
+            </div>
+          </div>
+        </div>
+        <div class="single-new-cars-item" style="margin-top: 50px;" id="Arduino">
+          <div class="row">
+            <div class="col-md-5 col-sm-12">
+              <div class="new-cars-txt">
+                <h2><a href="#">Arduino/Python Robot</a></h2>
+                <p>
+                  An Arduino/Python Robot Workshop is a hands-on educational event where participants construct a robot using Arduino, a beginner-friendly hardware platform, and program it with Python, a user-friendly programming language. The workshop guides attendees through the process of assembling the robot, connecting sensors and motors, and then writing Python code to control the robot's movements and interactions with its surroundings. This workshop offers an approachable way for beginners to learn about both the hardware and software aspects of robotics and gain practical experience in building and programming robots. 
+                </p>
+                <p class="modul">
+                  ROS Workshop Module 
+                </p>
+                <ul>
+                  <li>Arduino Block Coding</li>
+                  <li>Assemble Robot</li>
+                  <li>Adding Sensor </li>
+                </ul>
+                <br>
+                <button class="button" style="background-color: #0099ff;" onclick="window.location.href='#'">Register Now</button>
+              </div>	
+            </div>
+            <div class="col-md-7 col-sm-12">
+              <div class="new-cars-img">
+                <img src="../assets/img/robotstem.png" style="height: 50%;max-width: 50%;" alt="img"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  </div>
+  
+<!-- End Page Content -->
+</div>
+<style>
+  .firstcar {
+    position: absolute;
+    top: 55%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vw;
+    font-weight: bolder;
+    color: white;
+  }
+  .secondcar {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vw;
+    font-weight: bolder;
+    color: white;
+  }
+  .thirdcar {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vw;
+    font-weight: bolder;
+    color: white;
+  }
+  p{
+    text-align: justify;  
+  }
+  ul{
+    text-align: left;
+  }
+  .modul{
+    font-weight: bolder;
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #9900ff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+</style>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

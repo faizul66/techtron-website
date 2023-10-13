@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Course</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding-large">TECHTRON</a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="COURSE" >COURSE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="../pages/course.html" class="w3-bar-item w3-button">Main</a>
+        <a href="../pages/course.html#ROS" class="w3-bar-item w3-button">ROS</a>
+        <a href="../pages/course.html#Python" class="w3-bar-item w3-button">Python</a>
+        <a href="../pages/course.html#Arduino" class="w3-bar-item w3-button">Arduino</a>
+      </div>
+    </div>
+    <a href="../pages/about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="../pages/careers.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CAREERS</a>
+    <a href="../pages/contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#course" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COURSE</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT US</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<div class="logo">
+  <img src="assets/img/TECHTRON.png" alt="Logo" style="max-width: 100%; height: auto;">
+</div>
+<div class="careersection">
+  <div class="allcareer">
+    <div>
+      <h2>Software Engineer</h2>
+      <hr class="hr">
+      <p><b>Requirement:</b></p>
+      <ul>
+          <li>Experienced in Web Development Tools</li>
+          <li>Fresh Graduates are welcome to apply</li>
+      </ul>
+  </div>
+  <div>
+      <h2>AI Developer</h2>
+      <hr class="hr">
+      <p><b>Requirement:</b></p>
+      <ul>
+          <li>Experienced in any Artificial Intelligence Software; MediaPipe, TensorFlow</li>
+          <li>Fresh Graduates are welcome to apply</li>
+      </ul>
+  </div>
+  <div>
+      <h2>Trainer</h2>
+      <hr class="hr">
+      <p><b>Requirement:</b></p>
+      <ul>
+          <li>Ability in public speaking</li>
+          <li>Ability to travel</li>
+          <li>Fresh Graduates are welcome to apply</li>
+      </ul>
+  </div>
+</div>
+  <button class="button" onclick="window.location.href='#'">Send Your Resume Here!</button>
+
+
+<!-- End Page Content -->
+</div>
+
+<style> 
+  .logo img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .allcareer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding-top: 5vw;
+  }
+
+  .allcareer > div {
+      flex: 1;
+      max-width: 400px;
+      margin: 10px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+  }
+
+  hr.hr {
+      border: 1px solid #000;
+  }
+
+  .button {
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #000;
+      background-color: #fff;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      display: block;
+      margin: 20px auto;
+  }
+
+  .button:hover {
+      background-color: #3e8e41;
+  }
+
+  .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+  }
+    .careersection {
+      background-image: url("https://source.unsplash.com/FWVMhUa_wbY") ;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 35vw;
+  
+    }
+  
+    @media screen and (max-width: 768px) {
+        /* Adjust font size for smaller screens */
+        p {
+            font-size: 16px;
+        }
+        .careersection {
+            height: 50vw;
+        }
+}
+  
+</style>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+
+</body>
+</html>
